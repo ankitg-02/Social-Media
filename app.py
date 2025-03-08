@@ -37,7 +37,7 @@ if df_selection.empty:
     st.warning("⚠️ No data available for the selected filters. Please adjust your selections.")
 else:
     # KPIs
-    st.markdown("<h2 style='text-align: center; color: white;'>📌 Key Performance Indicators</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center'>📌 Key Performance Indicators</h2>", unsafe_allow_html=True)
 
     total_time_spent = int(df_selection['Total Time Spent'].sum())
     avg_time_spent = round(df_selection['Total Time Spent'].mean(), 1)
