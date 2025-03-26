@@ -1,0 +1,13 @@
+prefix=E:/DA/Projects/Social Media/venv/Library
+exec_prefix=E:/DA/Projects/Social Media/venv/Library
+libdir=E:/DA/Projects/Social Media/venv/Library/lib
+sharedlibdir=E:/DA/Projects/Social Media/venv/Library/lib
+includedir=E:/DA/Projects/Social Media/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
