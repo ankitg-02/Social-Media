@@ -3,52 +3,56 @@
 Project Description
 This project aims to predict user satisfaction scores based on social media usage patterns, demographics, and content consumption habits. Using machine learning techniques, the model estimates how satisfied a user is likely to be with their social media experience by analyzing key factors such as age, gender, profession, location, preferred social media platform, video watching habits, and video categories.
 <br>
-Features Included
+Features Included:
+<br>
 User Demographics: Age, Gender, Profession, and Demographic location (Urban/Rural/Suburban).
-
+<br>
 Social Media Usage: Preferred platform (Instagram, Facebook, Twitter, LinkedIn, Snapchat, etc.).
-
+<br>
 Video Consumption: Time spent watching videos daily and the primary category of videos watched (Entertainment, Education, News, Gaming, Lifestyle, Other).
-
+<br>
 Prediction Output: A satisfaction score indicating the predicted user satisfaction level.
-
-Project Workflow
-Data Collection & Processing
+<br>
+Project Workflow:
+<br>
+Data Collection & Processing:
 The dataset is sourced from social media usage surveys containing multiple user features and satisfaction scores. Data cleaning and preprocessing are performed, including encoding categorical variables and scaling numeric features.
-
-Model Training
+<br>
+Model Training: 
 A Random Forest regression model is trained on the processed dataset to learn the relationships between user features and satisfaction scores.
-
-Model Serialization
+<br>
+Model Serialization:
 The trained model and the scaler (StandardScaler) are serialized and saved as pickle files (random_forest.pkl and standard_scaler.pkl) for later inference.
-
-Streamlit Applications
-
+<br>
+Streamlit Applications:
+<br>
 Dashboard (app.py): Provides analytics and visual insights on social media data.
-
+<br>
 Prediction App (pred_app.py): Allows users to input their profile and social media usage details to predict satisfaction scores.
-
-How to Use
+<br>
+How to Use:
+<br>
 Clone the repository.
-
+<br>
 Install the dependencies (see Technology Stack).
-
+<br>
 Run the Streamlit dashboard (analytics and insights):
-
+<br>
 bash
 Copy
 Edit
 streamlit run app.py
 Run the Streamlit prediction app:
 [URL="https://ankitg-02-social-media-app-rdtpiw.streamlit.app/"]
-
+<br>
 bash
 Copy
 Edit
 streamlit run pred_app.py
 [URL="https://ankitg-02-social-media-pred-app-slrfek.streamlit.app"]
+<br>
 Follow the interactive UI to explore data or get personalized satisfaction predictions.
-
+<br>
 Technology Stack
 Component	Technology / Library	Purpose
 Programming Language	Python 3.8+	Core development language
@@ -58,7 +62,7 @@ Feature Scaling	scikit-learn StandardScaler	Normalize feature data
 Model Serialization	pickle	Save/load trained model and scaler
 Web Framework	Streamlit	Build interactive web UI for dashboard and prediction
 Visualization	Streamlit built-in widgets	UI elements like sliders, dropdowns, charts
-
+<br>
 Project Files
 Filename	Description
 app.py	Streamlit app for social media analytics and dashboard
@@ -66,7 +70,7 @@ pred_app.py	Streamlit app for satisfaction prediction based on user inputs
 random_forest.pkl	Serialized Random Forest regression model
 standard_scaler.pkl	Serialized StandardScaler for feature scaling
 data/ (optional)	Dataset files used for training (if included)
-
+<br>
 Future Enhancements
 Incorporate additional behavioral features for better accuracy.
 
