@@ -39,11 +39,13 @@ Copy
 Edit
 streamlit run app.py
 Run the Streamlit prediction app:
+[URL="https://ankitg-02-social-media-app-rdtpiw.streamlit.app/"]
 
 bash
 Copy
 Edit
 streamlit run pred_app.py
+[URL="https://ankitg-02-social-media-pred-app-slrfek.streamlit.app"]
 Follow the interactive UI to explore data or get personalized satisfaction predictions.
 
 Technology Stack
