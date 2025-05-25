@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Social Media ML App</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📱 Social Media ML Application</h1>
+      <p>Welcome! Choose a module to proceed:</p>
+      <div class="buttons">
+        <a href="{{ url_for('dashboard') }}">📊 View Dashboard</a>
+        <a href="{{ url_for('predict') }}">🔮 Predict Satisfaction</a>
+      </div>
+    </div>
+  </body>
+</html>
