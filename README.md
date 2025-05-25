@@ -1,4 +1,4 @@
-Social Media Satisfaction Prediction
+**Social Media Satisfaction Prediction**
 Project Description
 This project aims to predict user satisfaction scores based on social media usage patterns, demographics, and content consumption habits. Using machine learning techniques, the model estimates how satisfied a user is likely to be with their social media experience by analyzing key factors such as age, gender, profession, location, preferred social media platform, video watching habits, and video categories.
 
